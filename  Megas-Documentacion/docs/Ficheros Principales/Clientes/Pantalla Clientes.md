@@ -1,10 +1,54 @@
-## Clientes
 
+## Clientes
 En esta pantalla mediante las opciones de menú, podremos consultar diferentes datos de interés, además de realizar las operaciones básicas sobre cada uno de nuestros clientes.
 
 A la hora de dar de alta un cliente, el programa exigirá la **introducción de datos** que considera **importantes** para su gestión, dejando la posibilidad de dejar en blanco aquellos que por lógica carecen de tanta importancia.
 
-Esta obligatoriedad se pondrá de manifiesto en diferentes mensajes de error bien al dejar un **campo obligatorio en blanco o al terminar de recorrer todos los campos de la ficha**.
+Esta obligatoriedad se pondrá de manifiesto en diferentes mensajes de error bien al dejar un **campo obligatorio en blanco o al terminar de recorrer todos los campos de la ficha**
+
+### Barra Navegación Clientes
+
+Antes de avanzar con la pantalla principal, mostraremos la barra principal de navegación de la pantalla clientes, que dependiendo en que apartado del programa nos encotremos tendra un aspecto diferente.
+
+![Barra Navegacion Cliente](../../Imagenes/BarraNavegacionClientes.png)
+
+> Nos desplazaremos de izquierda a derecha explicando la funcionalidad de cada botón.
+>
+> Dejando el puntero encima de cada botón nos mostrará una ventana emergente con su funcionalidad.
+>
+> Botones Primera fila
+
+* **Salir**: Botón principal para salir de la pantalla actual.
+* **Primero**: Este botón nos llevará al primer registro.
+* **último**: Este botón nos llevará al último registro.
+* **Anterior**: Nos desplaza un registro anterior. *(Se puede usar la combinacion Ctrl + Flecha izquierda)*
+* **Posterior**: Nos desplaza un registro posterior. *(Se puede usar la combinacion Ctrl + Flecha derecha)*
+* **Alta**: Da de alta un registro nuevo. *(Se puede usar la combinación Ctrl + A)*
+* **Baja**: Da de baja el registro actual. *(Se puede usar la combinación Ctrl + B)*
+* **Modificar**: Modifica el registro actual. *(Se puede usar la combinación Ctrl + M)*
+* **Imprimir**: Nos muestra una ventana emergente con una serie de acciones. (Se detallan en el apartado de funcionalidades de cliente)
+* **Exportar**: Exporta la ficha a excel. *En desuso*
+* **Calculadora**: Abre la calculadora por defecto del sistema.
+* **Búsqueda I**: Permite buscar por nombre, dirección o código. Permite a su vez buscar introduciendo parte de la palabra.
+  * **$**: Mediante el carácter **dolar($)(Mayús + 4 )** permite buscar por registros dados de baja.
+* **Búsqueda II**: Permite buscar por dirección.
+
+> Botones segunda fila
+
+* **Orden**: Permite cambiar el orden de búsqueda de registro.
+  > ![Orden De búsqueda](../../Imagenes/FichaClienteOrden.png)
+* **Precios especiales**: Permite visualizar los precios especiales asignados al cliente.
+* **Rutero**: Accede a la pantalla de rutas de distribución asignadas al cliente.
+* **Pedidos**: Accdede al apartado de pedidos del cliente.
+* **Albaranes**: Accede al apartado de albaranes del cliente.
+* **Facturas**: Accede al apartado de facturas del cliente.
+* **Vencimientos**: Accede a los vencimientos de facturas del cliente.
+* **Ventas**:
+* **Histórico de pvp**:
+* **Stock de depósitos/Envases**:
+* **Artículos pendientes de suministro**:
+* **Información Comercial**:
+
 
 ![Imagen Ficha Cliente](../../Imagenes/FichaCliente.png)
 
@@ -96,13 +140,14 @@ Para hacer uso de este campo primero ha de dar de alta los grupos en la sección
   * **S (Sí)**: Albarán valorado, cada linea del albarán se imprime con precios y totales.
   * **N (No)**: Albarán sin valorar, cada linea del albarán se imprime solo con la cantidad.
 * **RIESGO**: Cantidad en Euros o en facturas que se le concede al cliente con el fin de que cuando **la deuda** llegue al valor introducido nos muestre un aviso y se impida seguir realizando operaciones de venta sobre el. <!-- Revisar y redactar este apartado mejor -->
-* **IMPUESTO ESPECIAL**: Código numerico predefinido que se asigna a aquellos clientes. 
-    * **0**: Impuesto Alcohol Exento.
-    * **1**: Impuesto Alcohol Península.
-    * **2**: Impuesto Alcohol Canarias.
+* **IMPUESTO ESPECIAL**: Código numerico predefinido que se asigna a aquellos clientes.
+  * **0**: Impuesto Alcohol Exento.
+  * **1**: Impuesto Alcohol Península.
+  * **2**: Impuesto Alcohol Canarias.
 * **PROMOCION**: Valor S/N. Indica si se le aplicarán las promociones **generales**.
 * **PUNTOS**: Valor S/N. Indica si el cliente puede acumular puntos por compra.
 * **%EUR ALBARANES**: Cantidad en **porcentaje** de descuento que se aplicará a los albaranes del cliente de forma **general**.
+
 > Los siguientes campos vienen divididos en dos columnas para la facturación de la serie C (Facturación en A) y para la facturación de la serie F (Facturación en B).
 <!-- Incicio de la tabla -->
 
@@ -149,18 +194,21 @@ En esta pantalla se hace referencia a las bonificaciones destinadas a **incentiv
 Estas bonificaciones no tienen por qué existir, a no ser que el concesionario las haya pactado con aterioridad con el cliente.
 
 Para asignar las bonificaciones deberemos realizar unos pasos previos:
-  * 1º: Asignar los tramos de bonificación <!-- Insertar referencia a bonificaciones y redirección a las bonificaciones -->
-  * 2º: Crear las bonificaciones.
 
-**En la siguiente imagen se muestra la pantalla de comisiones y bonificaciones de la ficha de un cliente.** 
+* 1º: Asignar los tramos de bonificación <!-- Insertar referencia a bonificaciones y redirección a las bonificaciones -->
+* 2º: Crear las bonificaciones.
+
+**En la siguiente imagen se muestra la pantalla de comisiones y bonificaciones de la ficha de un cliente.**
 <!-- Insertar cómo llegar a esta pantalla -->
 ![PantallaBonificaciones](../../Imagenes/FichaClienteBonificaComision.png)
 
 En la imagen apreciamos los siguientes campos:
- *  **Bonif. Cajas (Bonificaciones por Caja)**: Código de bonificación por cajas.
- *  **Bonif. Barril (Bonificaciones por Barril)**: Código de bonififación por barril.
+
+* **Bonif. Cajas (Bonificaciones por Caja)**: Código de bonificación por cajas.
+* **Bonif. Barril (Bonificaciones por Barril)**: Código de bonififación por barril.
+
   > Estos códigos se asignan de manera automática utilizando el proceso de Asignar códigos de bonificación <!-- Introduccir redireccíon a códigos de bonificación -->![Asignar códigos de bonificación]
- 
+
 ### ➡️ Comisiones
 
 En esta pantalla, además, se reflejan las comisiones que perciben nuestros empleados o autónomos por realizar su función a este cliente en cuestión.
