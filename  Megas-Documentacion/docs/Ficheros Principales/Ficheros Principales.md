@@ -8,4 +8,4 @@ En este apartado encontramos todo lo relacionado con el funcionamiento **básico
 
 En esta pantalla se pretende, además de recoger los datos propios de cada cliente, definir el comportamiento básico de cada uno respecto a nuestro negocio. 
 
- - Acceder a Clientes: [Pantalla - Cliente](./Clientes/Pantalla-Clientes.md)
+ - Acceder a Clientes: [Pantalla - Cliente](./Clientes/Pantalla%20Clientes.md)
