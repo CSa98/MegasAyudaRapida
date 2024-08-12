@@ -1,5 +1,6 @@
 
 ## Clientes
+
 En esta pantalla mediante las opciones de menú, podremos consultar diferentes datos de interés, además de realizar las operaciones básicas sobre cada uno de nuestros clientes.
 
 A la hora de dar de alta un cliente, el programa exigirá la **introducción de datos** que considera **importantes** para su gestión, dejando la posibilidad de dejar en blanco aquellos que por lógica carecen de tanta importancia.
@@ -26,7 +27,10 @@ Antes de avanzar con la pantalla principal, mostraremos la barra principal de na
 * **Alta**: Da de alta un registro nuevo. *(Se puede usar la combinación Ctrl + A)*
 * **Baja**: Da de baja el registro actual. *(Se puede usar la combinación Ctrl + B)*
 * **Modificar**: Modifica el registro actual. *(Se puede usar la combinación Ctrl + M)*
-* **Imprimir**: Nos muestra una ventana emergente con una serie de acciones. (Se detallan en el apartado de funcionalidades de cliente)
+* **Imprimir**: Nos muestra una ventana emergente con una serie de listados referentes al cliente en pantalla.
+  > Los listados a mostrar son: Estadísticas de venta, *Ficha del Cliente* y estado de cuenta.
+  >
+  > Para imprimir la orden de domiliciación deberemos introducir en el cuadro **"IBAN"**
 * **Exportar**: Exporta la ficha a excel. *En desuso*
 * **Calculadora**: Abre la calculadora por defecto del sistema.
 * **Búsqueda I**: Permite buscar por nombre, dirección o código. Permite a su vez buscar introduciendo parte de la palabra.
@@ -35,19 +39,30 @@ Antes de avanzar con la pantalla principal, mostraremos la barra principal de na
 
 > Botones segunda fila
 
-* **Orden**: Permite cambiar el orden de búsqueda de registro.
+* **Orden**: Permite cambiar el orden de búsqueda de registro. Las opciones disponibles son por código de cliente, dirección comercial y nombre comercial.
   > ![Orden De búsqueda](../../Imagenes/FichaClienteOrden.png)
-* **Precios especiales**: Permite visualizar los precios especiales asignados al cliente.
+* **Precios especiales**: Permite acceder a la pantalla de precios especiales asociados al cliente en pantalla. También permite saltar a la pantalla de promociones, bonificaciones y Rappels.
 * **Rutero**: Accede a la pantalla de rutas de distribución asignadas al cliente.
-* **Pedidos**: Accdede al apartado de pedidos del cliente.
+* **Pedidos**: Permite visualizar la lista de pedidos del cliente y visualizar cada uno de ellos posicionándonos encima y pulsando intro. Cuando pulsemos **Escape (ESC)** desde la pantalla volveremos a la ficha del cliente.
+
+> ***Esta funcionalidad se aplica para las facturas y albaranes.***
+
 * **Albaranes**: Accede al apartado de albaranes del cliente.
 * **Facturas**: Accede al apartado de facturas del cliente.
 * **Vencimientos**: Accede a los vencimientos de facturas del cliente.
-* **Ventas**:
-* **Histórico de pvp**:
-* **Stock de depósitos/Envases**:
-* **Artículos pendientes de suministro**:
-* **Información Comercial**:
+* **Ventas**: Permite visualizar tres tipos de informe. Un informe de Ventas entre fechas, un informe de incidencias de reparto y un gráfico de consumo comparativo con los dos años anteriores **siempre y cuando exista consumo.**
+* **Histórico de pvp**: Permite visualizar los distintos precios de venta de un artículo que se han aplicado al cliente en un periodo de tiempo determinado.
+* **Stock de depósitos/Envases**: Nos redirige a la pantalla de control de stocks de envases, el control de depósitos y puntos de promoción.
+>
+> *Si se tiene el módulo activado, también permite ver la relación de artículos no entregados a ese cliente. Esa opción también lo permite la siguiente opción.
+* **Artículos pendientes de suministro**: Muestra los artñiculos que no se han podido servir al cliente.
+* **Información Comercial**: Permite llevar un registro de material comercial (PLVs) entregados al cliente.
+* **Memo**: Información en texto libre para el cliente.
+* **Otros datos del cliente**: Muestra una pantalla donde poder introducir otros datos de contacto del cliente.
+* **Otras direcciones**: Permite registrar otras direcciones, personas de contacto y teléfonos del cliente.
+* **Cheque/pagaré**: Permite imprimir un cheque o pagaré al cliente que tenemos en pantalla.
+* **Cubo de datos**: Exporta a un programa de minería de datos las diferentes estadísticas del cliente que estamos visualizando. ***En desuso***.
+* **Google Maps**: Permite visualizar en Google Maps la ubicación del cliente siempre y cuando la dirección este introducida correctamente. ***En desuso***.
 
 
 ![Imagen Ficha Cliente](../../Imagenes/FichaCliente.png)
@@ -168,6 +183,7 @@ Para hacer uso de este campo primero ha de dar de alta los grupos en la sección
 ## Rutas Cliente
 
 En esta pantalla podremos asignar las distintas rutas a los clientes. Para ello primeramente deberemos de haber dado de altas las rutas en *20.Rutas* <!-- Introduccir redirección a rutas -->
+
 ![Pantalla Rutas](../../Imagenes/FichaClienteRutas.png)
 
 A continuación se detallan los campos:

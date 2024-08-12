@@ -19,7 +19,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/Acceso a la aplicación">
+              {/* Crear página de inicio explicando finalidad de manual y versión */}
             Acceder a documentación ➡️
           </Link>
         </div>
@@ -27,7 +28,6 @@ function HomepageHeader() {
     </header>
   );
 }
-
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
