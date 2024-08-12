@@ -13,10 +13,11 @@ Antes de avanzar con la pantalla principal, mostraremos la barra principal de na
 
 ![Barra Navegacion Cliente](../../Imagenes/BarraNavegacionClientes.png)
 
-> Nos desplazaremos de izquierda a derecha explicando la funcionalidad de cada botón.
->
-> Dejando el puntero encima de cada botón nos mostrará una ventana emergente con su funcionalidad.
->
+> **Nos desplazaremos de izquierda a derecha explicando la funcionalidad de cada botón.**
+:::tip
+ Dejando el puntero encima de cada botón nos mostrará una ventana emergente con su funcionalidad.
+:::
+
 > Botones Primera fila
 
 * **Salir**: Botón principal para salir de la pantalla actual.
@@ -55,6 +56,7 @@ Antes de avanzar con la pantalla principal, mostraremos la barra principal de na
 * **Stock de depósitos/Envases**: Nos redirige a la pantalla de control de stocks de envases, el control de depósitos y puntos de promoción.
 >
 > *Si se tiene el módulo activado, también permite ver la relación de artículos no entregados a ese cliente. Esa opción también lo permite la siguiente opción.
+
 * **Artículos pendientes de suministro**: Muestra los artñiculos que no se han podido servir al cliente.
 * **Información Comercial**: Permite llevar un registro de material comercial (PLVs) entregados al cliente.
 * **Memo**: Información en texto libre para el cliente.
@@ -63,7 +65,6 @@ Antes de avanzar con la pantalla principal, mostraremos la barra principal de na
 * **Cheque/pagaré**: Permite imprimir un cheque o pagaré al cliente que tenemos en pantalla.
 * **Cubo de datos**: Exporta a un programa de minería de datos las diferentes estadísticas del cliente que estamos visualizando. ***En desuso***.
 * **Google Maps**: Permite visualizar en Google Maps la ubicación del cliente siempre y cuando la dirección este introducida correctamente. ***En desuso***.
-
 
 ![Imagen Ficha Cliente](../../Imagenes/FichaCliente.png)
 
@@ -109,7 +110,10 @@ Procederemos a detallar cada aspecto de la **ficha de clientes**.
 Para hacer uso de este campo primero ha de dar de alta los grupos en la sección **153-Grupos de cliente.**
 
 * **NAC**: Indica si se trata de un cliente nacional. Entendemos por cliente nacional a todo aquel cliente al que el proveedor le factura directamente.
-    > Para dar de alta un cliente nacional se deberá hacer desde el apartado **157-Clientes - Proveedores.**
+
+:::warning
+Para dar de alta un cliente nacional se deberá hacer desde el apartado **157-Clientes - Proveedores.**
+:::
 
 * **SERIE FAC**: **POR RELLENAR**
 
@@ -125,7 +129,11 @@ Para hacer uso de este campo primero ha de dar de alta los grupos en la sección
 * **TELEFONO**: Número de telefono del cliente.
 * **TELEFAX**: Número de FAX del cliente.
 * **REPRESENTANTE**: Código del preventista que visita al cliente.
-    >Para poder asignar un representante, deberemos darlo de alta previamente en el sistema mediante *22.Personal*.
+
+:::warning
+  Para poder asignar un representante, deberemos darlo de alta previamente en el sistema mediante ***22 - Personal***
+:::
+
 * **CÓDIGO DE ZONA**: El programa permite ubicar a los clientes en zonas con el fin de obtener información estadística basándose en ese critrerio. <!-- Añadir desde donde se dan de alta las zonas -->
 * **TIPO DE PAGO-1**: Tipo de pago referentes a las operaciones A.  <!-- Añadir desde donde se añaden las formas de pago. -->
 * **TIPO DE PAGO-2**: Tipo de pago referente a las operaciones B.
@@ -133,7 +141,10 @@ Para hacer uso de este campo primero ha de dar de alta los grupos en la sección
 * **CUENTA CONTABLE**: Código generado automáticamente por el programa al dar de alta un cliente con código numérico.
 
 * **TOTAL ALBARANES PENDIENTES**: Es el importe total al que ascienden todos los albaranes del cliente que están **pendientes de ser facturados**. Este dato se genera de manera **automática**.
-  >En algunos casos y debido al erroneo mantenimiento de la base de datos este campo puede arrojar una cantidad diferente a la real. Para ello utilizaremos el recálculo de saldos.
+
+:::info
+En algunos casos y debido al erroneo mantenimiento de la base de datos este campo puede arrojar una cantidad diferente a la real. Para ello utilizaremos el recálculo de saldos.
+:::
 
 * **OBSERVACION**: Campo destinado a una observación interna. Este campo no se refleja en ingun lugar más alla de la ficha de cliente.
 

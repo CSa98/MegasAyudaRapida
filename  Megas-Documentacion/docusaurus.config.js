@@ -70,6 +70,7 @@ const config = {
             position: 'left',
             label: 'Manual',
           },
+          {to: 'blog', label: 'Notas Version', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -81,12 +82,16 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentos',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Manual Gestión',
+                to: '/docs/Acceso%20a%20la%20aplicación',
               },
+              {
+                label: 'Notas de versión',
+                to: '/Notas_Version/Notas_version.md',
+              }
             ],
           },
           {

@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/Acceso a la aplicación">
-              {/* Crear página de inicio explicando finalidad de manual y versión */}
+              {/* Crear página de inicio explicando finalidad de manual y */}
             Acceder a documentación ➡️
           </Link>
         </div>
