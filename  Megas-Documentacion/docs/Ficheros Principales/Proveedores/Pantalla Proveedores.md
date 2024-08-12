@@ -189,3 +189,4 @@ Se nos mostrará una pantalla para poder filtar la información que deseamos sac
 
 ![Pantalla Filtro Cuenta](../../Imagenes/Pantalla%20Proveedores/ParametrosEstadoProveedor.png).
 
+Una vez introduccidos los datos nos mostrará un resumen del estado de cuenta del proveedor en cuestión.
