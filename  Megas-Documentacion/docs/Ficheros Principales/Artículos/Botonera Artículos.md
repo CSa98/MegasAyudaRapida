@@ -6,7 +6,6 @@ Antes de continuar con la pantalla principal de la sección de artículos visual
 
 ![Botonera Artículos](../../Imagenes/Articulos/BotoneraArtículos.png)
 
-
 :::tip[Consejo]
 Al mantener el puntero encima de cada botón aparecerá una leyenda indicando la funcionalidad del mismo.
 :::
@@ -24,3 +23,13 @@ Al mantener el puntero encima de cada botón aparecerá una leyenda indicando la
 * ![Calculadora](../../Imagenes/Articulos/Botonera/BNT_CALCULADORA.png) **Calculadora**: Abre la calculadora del sistema.
 * ![Busqueda](../../Imagenes/Articulos/Botonera/BUSQUEDA.png) **Búsqueda**: Realiza una búsqeuda de artículo introduciendo el código directamente, introduciendo el comienzo de su descripción o usando el comodín **"*"** y a continuación algo que esté incluido en cualquier parte del nombre.
 * ![Orden](../../Imagenes/Articulos/Botonera/BTN_ORDEN.png) **Orden**: Cambia el criterio de avenze o retroceso de los registros, por código o por nombre.
+* ![Almacen](../../Imagenes/Articulos/Botonera/BTN_ESALMA.png) **Extracto Movimientos**: Permite visualizar de manera grafica un extracto de movimientos del artículo.
+* ![Envases](../../Imagenes/Articulos/Botonera/BTN_ENVASE.png) **Envases**: Permite asociar el artículo con su respectivo envase.
+* ![Lotes](../../Imagenes/Articulos/Botonera/BTN_LOTE.png) **Lotes**: Permite indicar que el artículo en pantalla está compuesto por otros artículos.
+    :::info[Información]
+    Para que esta función funcione correctamente el artículo ha de ser tipo L (Lote).
+    Se utiliza por ejemplo para cestas de navidad etc...
+    :::
+* ![Datos Mes](../../Imagenes/Articulos/Botonera/BTN_GRAFICO.png) **Gráfico**: Cambia el modo de visualización de la ficha de artículo para ver los totales de movimientos del mismo acumulados por mes/año.
+
+* ![Memo](../../Imagenes/Articulos/Botonera/BTN_MEMO.png) **Memo**: Información en texto libre para el artículo..
