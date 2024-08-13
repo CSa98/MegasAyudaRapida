@@ -1,3 +1,8 @@
+---
+sidebar_position: 1
+---
+
+
 ## Barra auxiliar Artículos
 
 Al igual que en los demás apartados del sistema, econtraremos una barra de navegación auxiliar que nos permitirá realizar las distintas operaciones.
@@ -32,4 +37,35 @@ Al mantener el puntero encima de cada botón aparecerá una leyenda indicando la
     :::
 * ![Datos Mes](../../Imagenes/Articulos/Botonera/BTN_GRAFICO.png) **Gráfico**: Cambia el modo de visualización de la ficha de artículo para ver los totales de movimientos del mismo acumulados por mes/año.
 
-* ![Memo](../../Imagenes/Articulos/Botonera/BTN_MEMO.png) **Memo**: Información en texto libre para el artículo..
+* ![Memo](../../Imagenes/Articulos/Botonera/BTN_MEMO.png) **Memo**: Información en texto libre para el artículo.
+
+* ![Barras](../../Imagenes/Articulos/Botonera/BTN_CODBARRASADICIONAL.png) **Códigos de barra adicionales**: Permite asociar al artículo en pantalla más códigos de barras dependiendo del proveedor que lo suministre.
+
+* ![Pendiente](../../Imagenes/Articulos/Botonera/BTN_CLIPENSUMINIS.png) **Clientes pendientes suministro**: Muestra los clientes a los que no se les ha podido servir este producto.
+
+* ![Traza](../../Imagenes/Articulos/Botonera/BTN_TRAZABILIDAD.png) **Trazabilidad**: Muestra la pantalla de control de lotes y trazabilidad.
+    :::warning Aviso: Trazabilidad
+    Debe activarse previamente el módulo por parte del soporte técnico de Megas.
+
+    Una vez activo el módulo se desactivará automaticamente la posibilidad de modificar manualmente el stock de nuestros almacenes.
+    :::
+
+* ![Duplicar](../../Imagenes/Articulos/Botonera/BTN_DUPLICARFICHA.png) **Duplicar**: Permite duplicar la ficha del artículo incluyendo stock, precios especiales, promociones...
+
+* ![Promociones](../../Imagenes/Articulos/Botonera/BTN_PROMOCIONES.png) **Promociones del artículo**: Muestra la pantalla de las promociones en las que está incluido el artículo en pantalla.
+
+* ![Pendiende Recibir](../../Imagenes/Articulos/Botonera/BTN_PENDIENTEREC.png) **Pendiente Recibir**: Muestra por pantalla los albaranes de compra pendientes de servir que incluyen el artículo.
+
+* ![Margenes Por tarifa](../../Imagenes/Articulos/Botonera/BTN_MARGENTARIFA.png) **Margenes por Tarifa**: Muestra una ventana la cual nos permite mediante la introducción del % que deseemos modificar rápidamente las tarifas.
+
+* ![Cubo Decision](../../Imagenes/Articulos/Botonera/BTN_CUBO.png) **Cubo Decisión**: Exporta a un programa de minería de datos las diferentes estadísticas donde aparezca el artículo que estamos visualizando.
+
+* ![Documentos Asociados](../../Imagenes/Articulos/Botonera/BTN_DOCU.png) **Documentos Asociados**: Muestra una pantalla donde podremos incorporar aquellos documentos relacionados con nuestro artículo.
+
+* ![Imagenes Asociadas](../../Imagenes/Articulos/Botonera/BTN_IMAGENES.png) **Imagen Producto**: Permite la visualización por pantalla de la imagen del producto.
+
+    :::info
+    Para que esta funcion funcione correctamente deberemos tener previamente incorporado en la ruta "\POCKET\Imagenes" las imagenes en formato JPG o PNG de nuestros artículos nombrados bien con su Código o bien por proveedor mediante P_XXX siendo P el prefijo y XXX el código de proveedor.
+    :::
+
+* ![Carrito](../../Imagenes/Articulos/Botonera/BTN_CARRITO.png) **Carrito de compra**: Permite ir añadiendo al carrito de compra las unidades del artículo que deseemos.

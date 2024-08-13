@@ -1,3 +1,8 @@
+---
+sidebar_position: 2
+---
+
+
 ## Artículos
 
 La sección de artículos es crucial para optimizar y gestionar eficicientemente los procesos comerciales de nuestro negocio. Mediante las múltiples funcionalidades y opciones disponibles podremos gestionar el inventario de nuestra empresa asi como sus movimientos.

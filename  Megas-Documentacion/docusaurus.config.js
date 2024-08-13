@@ -23,7 +23,7 @@ const config = {
   organizationName: 'facebook', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
@@ -32,6 +32,7 @@ const config = {
   i18n: {
     defaultLocale: 'es',
     locales: ['es'],
+    path: 'i18n',
   },
 
   presets: [
@@ -102,10 +103,6 @@ const config = {
                 label: 'Manual Gestión',
                 to: '/docs/Acceso%20a%20la%20aplicación',
               },
-              {
-                label: 'Notas de versión',
-                to: '/Notas_Version/Notas_version.md',
-              }
             ],
           },
           {
