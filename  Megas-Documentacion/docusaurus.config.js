@@ -18,10 +18,7 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -85,12 +82,12 @@ const config = {
             position: 'left',
             label: 'Manual',
           },
-          {to: 'blog', label: 'Notas Version', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            to: '\\NotasVersion\\Version-16-62.md',
+            label: 'Notas de version',
+            position: 'left',
           },
+        
         ],
       },
       footer: {
@@ -108,18 +105,7 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+           
             ],
           },
           {

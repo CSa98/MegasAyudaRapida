@@ -9,7 +9,7 @@ Al igual que en los demás apartados del sistema, econtraremos una barra de nave
 
 Antes de continuar con la pantalla principal de la sección de artículos visualizaremos la barra y sus funcionalidades.
 
-![Botonera Artículos](../../Imagenes/Articulos/BotoneraArtículos.png)
+![Botonera Artículos]
 
 :::tip[Consejo]
 Al mantener el puntero encima de cada botón aparecerá una leyenda indicando la funcionalidad del mismo.
