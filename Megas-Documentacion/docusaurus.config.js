@@ -14,8 +14,7 @@ const config = {
 
   // Set the production url of your site here
   url: 'http:/megassl.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+
   baseUrl: '/',
 
 
@@ -50,11 +49,14 @@ const config = {
     ],
   ],
   plugins: [
-    [require.resolve("@easyops-cn/docusaurus-search-local"), ({hashed: true, }),],
-    [require.resolve("docusaurus-plugin-image-zoom")],
-
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"), 
+      {
+        hashed: true,
+      },
+    ],
+    'docusaurus-plugin-zooming'
   ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -65,16 +67,6 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
-        },
-        zoom: {
-          selector: '.markdown :not(em) > img',
-          config: {
-            // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
-            background: {
-              light: 'rgb(255, 255, 255)',
-              dark: 'rgb(50, 50, 50)'
-            }
-          },
         },
         items: [
           {
@@ -92,6 +84,18 @@ const config = {
         
         ],
       },
+      zooming: {
+        selector: '.markdown img',
+        delay: 500,
+        background: {
+          light: 'rgba(101,108,133,0.8)',
+          dark: 'rgba(9,10,17,0.8)'
+        },
+        options: {
+          // See the docs of zooming for all available options: https://github.com/francoischalifour/medium-zoom#usage
+        }
+      },
+      
       footer: {
         style: 'dark',
         links: [
