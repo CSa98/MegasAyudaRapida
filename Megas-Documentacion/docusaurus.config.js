@@ -50,13 +50,9 @@ const config = {
     ],
   ],
   plugins: [
-    [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
-      ({
+    [require.resolve("@easyops-cn/docusaurus-search-local"), ({hashed: true, }),],
+    [require.resolve("docusaurus-plugin-image-zoom")],
 
-        hashed: true,
-      }),
-    ],
   ],
 
   themeConfig:
@@ -69,6 +65,16 @@ const config = {
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
+        },
+        zoom: {
+          selector: '.markdown :not(em) > img',
+          config: {
+            // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+            background: {
+              light: 'rgb(255, 255, 255)',
+              dark: 'rgb(50, 50, 50)'
+            }
+          },
         },
         items: [
           {
